@@ -1,3 +1,5 @@
+package sotfwaretest.qajava.sandbox;
+
 public class MyFirstProgramm{
 
 public static void main(String[]args) {
