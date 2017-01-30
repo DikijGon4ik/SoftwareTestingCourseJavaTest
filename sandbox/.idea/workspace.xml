@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3dcea60-590e-484a-a6b7-64438683b915" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../addressbook-web-test/src/test/java/sotfware/qajava/addressbook/ContactInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../addressbook-web-test/src/test/java/sotfware/qajava/addressbook/PersonalData.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../addressbook-web-test/src/test/java/sotfware/qajava/addressbook/NewPersonCreationTests.java" afterPath="$PROJECT_DIR$/../addressbook-web-test/src/test/java/sotfware/qajava/addressbook/NewPersonCreationTests.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -41,7 +40,7 @@
       <file leaf-file-name="GroupCreationTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../addressbook-web-test/src/test/java/sotfware/qajava/addressbook/GroupCreationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
+            <state relative-caret-position="1020">
               <caret line="67" column="48" lean-forward="false" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="50" />
               <folding>
                 <element signature="e#1320#1321#0" expanded="true" />
@@ -67,19 +66,39 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NewPersonCreationTests.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NewPersonCreationTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../addressbook-web-test/src/test/java/sotfware/qajava/addressbook/NewPersonCreationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="48" column="3" lean-forward="true" selection-start-line="48" selection-start-column="3" selection-end-line="48" selection-end-column="3" />
+            <state relative-caret-position="238">
+              <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
               <folding>
-                <element signature="e#836#837#0" expanded="true" />
-                <element signature="e#889#890#0" expanded="true" />
-                <element signature="e#933#934#0" expanded="true" />
-                <element signature="e#1014#1015#0" expanded="true" />
-                <element signature="e#2677#2678#0" expanded="true" />
-                <element signature="e#2733#2734#0" expanded="true" />
+                <element signature="e#835#836#0" expanded="true" />
+                <element signature="e#888#889#0" expanded="true" />
+                <element signature="e#932#933#0" expanded="true" />
+                <element signature="e#1013#1014#0" expanded="true" />
+                <element signature="e#2676#2677#0" expanded="true" />
+                <element signature="e#2732#2733#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PersonalData.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../addressbook-web-test/src/test/java/sotfware/qajava/addressbook/PersonalData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GroupDeletionTests.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../addressbook-web-test/src/test/java/sotfware/qajava/addressbook/GroupDeletionTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -672,6 +691,7 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/../addressbook-web-test/src/test/java/sotfware/qajava/addressbook/GroupCreationTests.java" />
         <option value="$PROJECT_DIR$/../addressbook-web-test/src/test/java/sotfware/qajava/addressbook/NewPersonCreationTests.java" />
+        <option value="$PROJECT_DIR$/../addressbook-web-test/src/test/java/sotfware/qajava/addressbook/GroupDeletionTests.java" />
       </list>
     </option>
   </component>
@@ -682,8 +702,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="478" />
-    <option name="y" value="35" />
+    <option name="x" value="559" />
+    <option name="y" value="46" />
     <option name="width" value="1275" />
     <option name="height" value="925" />
   </component>
@@ -1343,7 +1363,7 @@
       <updated>1485616059498</updated>
       <workItem from="1485616060766" duration="1547000" />
       <workItem from="1485617612815" duration="4143000" />
-      <workItem from="1485767043933" duration="9900000" />
+      <workItem from="1485767043933" duration="10565000" />
     </task>
     <servers />
   </component>
@@ -1380,10 +1400,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15590000" />
+    <option name="totallyTimeSpent" value="16255000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="478" y="35" width="1275" height="925" extended-state="0" />
+    <frame x="559" y="46" width="1275" height="925" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1641,9 +1661,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../addressbook-web-test/src/test/java/sotfware/qajava/addressbook/ContactInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../addressbook-web-test/src/test/java/sotfware/qajava/addressbook/GroupCreationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
+        <state relative-caret-position="1020">
           <caret line="67" column="48" lean-forward="false" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="50" />
           <folding>
             <element signature="e#1320#1321#0" expanded="true" />
@@ -1666,7 +1694,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../addressbook-web-test/src/test/java/sotfware/qajava/addressbook/ContactInfo.java">
+    <entry file="file://$PROJECT_DIR$/../addressbook-web-test/src/test/java/sotfware/qajava/addressbook/NewPersonCreationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+          <folding>
+            <element signature="e#835#836#0" expanded="true" />
+            <element signature="e#888#889#0" expanded="true" />
+            <element signature="e#932#933#0" expanded="true" />
+            <element signature="e#1013#1014#0" expanded="true" />
+            <element signature="e#2676#2677#0" expanded="true" />
+            <element signature="e#2732#2733#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../addressbook-web-test/src/test/java/sotfware/qajava/addressbook/PersonalData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -1674,18 +1717,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../addressbook-web-test/src/test/java/sotfware/qajava/addressbook/NewPersonCreationTests.java">
+    <entry file="file://$PROJECT_DIR$/../addressbook-web-test/src/test/java/sotfware/qajava/addressbook/GroupDeletionTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="48" column="3" lean-forward="true" selection-start-line="48" selection-start-column="3" selection-end-line="48" selection-end-column="3" />
-          <folding>
-            <element signature="e#836#837#0" expanded="true" />
-            <element signature="e#889#890#0" expanded="true" />
-            <element signature="e#933#934#0" expanded="true" />
-            <element signature="e#1014#1015#0" expanded="true" />
-            <element signature="e#2677#2678#0" expanded="true" />
-            <element signature="e#2733#2734#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="221">
+          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -21,7 +21,7 @@ public class NewPersonCreationTests {
     }
     
     @Test
-    public void NewPersonCreationTests() {
+    public void testNewPersonCreation() {
       addNewPerson();
       fillNewPerson();
       submitNewPersonCreation();
