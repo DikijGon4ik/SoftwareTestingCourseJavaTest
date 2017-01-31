@@ -15,6 +15,8 @@ public class NewPersonCreationTests {
     @BeforeMethod
     public void setUp() throws Exception {
         System.setProperty("webdriver.gecko.driver", "F:/Studing/geckodriver.exe");
+      System.setProperty("webdriver.firefox.bin",
+              "F:\\Program Files(x86)\\Mozilla Firefox\\firefox.exe");
         wd = new FirefoxDriver();
         wd.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
       login("secret", "admin");

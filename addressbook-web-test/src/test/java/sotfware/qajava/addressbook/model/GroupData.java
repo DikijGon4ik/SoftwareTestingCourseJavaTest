@@ -1,4 +1,4 @@
-package sotfware.qajava.addressbook;
+package sotfware.qajava.addressbook.model;
 
 public class GroupData {
   private final String name;
