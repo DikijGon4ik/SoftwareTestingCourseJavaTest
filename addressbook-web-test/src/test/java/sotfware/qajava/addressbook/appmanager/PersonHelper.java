@@ -33,7 +33,6 @@ public class PersonHelper extends HelperBase {
 
   public void submitPersonCreation() {
     click(By.xpath("//div[@id='content']/form/input[21]"));
-
   }
 
   public void selectPerson() {
@@ -46,5 +45,13 @@ public class PersonHelper extends HelperBase {
 
   public void confirmDeletion() {
     wd.switchTo().alert().accept();
+  }
+
+  public void initPersonModification() {
+  click(By.xpath("//table[@id='maintable']/tbody/tr[2]/td[8]/a/img"));
+  }
+
+  public void submitPersonModification() {
+    click(By.name("update"));
   }
 }
