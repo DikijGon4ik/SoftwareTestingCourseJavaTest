@@ -1,13 +1,14 @@
 package sotfware.qajava.addressbook.appmanager;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import sotfware.qajava.addressbook.model.ContactInfo;
 import sotfware.qajava.addressbook.model.PersonalData;
 
 public class PersonHelper extends HelperBase {
 
-  public PersonHelper(FirefoxDriver wd) {
+  public PersonHelper(WebDriver wd) {
     super(wd);
   }
 

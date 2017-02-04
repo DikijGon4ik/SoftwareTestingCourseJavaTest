@@ -1,18 +1,15 @@
 package sotfware.qajava.addressbook.tests;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.BrowserType;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-import sotfware.qajava.addressbook.model.ContactInfo;
-import sotfware.qajava.addressbook.model.PersonalData;
 import sotfware.qajava.addressbook.appmanager.ApplicationManager;
 
 public class TestBase {
 
-  public final ApplicationManager app = new ApplicationManager();
-  FirefoxDriver wd;
+  public final ApplicationManager app = new ApplicationManager(BrowserType.IE);
 
   public static boolean isAlertPresent(FirefoxDriver wd) {
       try {
