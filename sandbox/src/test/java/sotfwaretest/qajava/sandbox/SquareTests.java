@@ -1,7 +1,7 @@
 package sotfwaretest.qajava.sandbox;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import sotfwaretest.qajava.sandbox.Square;
 
 public class SquareTests {
 
