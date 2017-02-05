@@ -23,6 +23,6 @@ public class PersonDeletionTests extends TestBase {
       app.getPersonHelper().selectPerson();
       app.getPersonHelper().deletePerson();
       app.getPersonHelper().confirmDeletion();
-      app.getPersonHelper().returnToHomePage();
+      app.getNavigationHelper().returnToHomePage();
     }
 }

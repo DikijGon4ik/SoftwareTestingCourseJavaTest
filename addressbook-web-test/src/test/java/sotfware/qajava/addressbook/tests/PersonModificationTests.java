@@ -7,9 +7,9 @@ public class PersonModificationTests extends TestBase {
   @Test
   public void testPersonModification(){
     app.getPersonHelper().selectPerson();
-    app.getPersonHelper().initPersonModification();
+    app.getPersonHelper().initPersonModification(false);
     app.getPersonHelper().submitPersonModification();
-    app.getPersonHelper().returnToHomePage();
+    app.getNavigationHelper().returnToHomePage();
   }
 
 }

@@ -11,15 +11,7 @@ public class ContactInfo {
     this.email = email;
   }
 
-  public String getHomePhone() {
-    return homePhone;
-  }
-
-  public String getMobilePhone() {
-    return mobilePhone;
-  }
-
-  public String getEmail() {
-    return email;
-  }
+  public String getHomePhone()      {  return homePhone;   }
+  public String getMobilePhone()    {  return mobilePhone; }
+  public String getEmail()          {  return email;       }
 }
