@@ -20,6 +20,7 @@ public class PersonDeletionTests extends TestBase {
     
     @Test
     public void PersonDeletionTests(){
+      if(! app.getPersonHelper().isThereAPerson())  {   NewPersonCreationTests.testNewPersonCreation(); }
       app.getPersonHelper().selectPerson();
       app.getPersonHelper().deletePerson();
       app.getPersonHelper().confirmDeletion();

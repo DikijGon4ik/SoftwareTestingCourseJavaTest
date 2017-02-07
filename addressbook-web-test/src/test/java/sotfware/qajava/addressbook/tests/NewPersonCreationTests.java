@@ -7,7 +7,7 @@ import sotfware.qajava.addressbook.model.PersonalData;
 public class NewPersonCreationTests extends TestBase {
 
   @Test
-  public void testNewPersonCreation() {
+  public static void testNewPersonCreation() {
     app.getPersonHelper().initPersonCreation();
     app.getPersonHelper().fillPersonData(new PersonalData("F_name", "L_name", "FL", "test1"), true);
     app.getPersonHelper().fillContactInfo(new ContactInfo("12345678", "(123)456-789", "email@email.com"));

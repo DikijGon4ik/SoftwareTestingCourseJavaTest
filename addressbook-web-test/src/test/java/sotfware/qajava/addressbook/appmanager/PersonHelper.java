@@ -62,4 +62,8 @@ public class PersonHelper extends HelperBase {
   public void submitPersonModification() {
     click(By.name("update"));
   }
+
+  public boolean isThereAPerson() {
+    return isElementPresent(By.name("selected[]"));
+  }
 }

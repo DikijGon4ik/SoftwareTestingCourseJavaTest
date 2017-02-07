@@ -9,7 +9,7 @@ import sotfware.qajava.addressbook.appmanager.ApplicationManager;
 
 public class TestBase {
 
-  public final ApplicationManager app = new ApplicationManager(BrowserType.IE);
+  public static final ApplicationManager app = new ApplicationManager(BrowserType.IE);
 
   public static boolean isAlertPresent(FirefoxDriver wd) {
       try {
