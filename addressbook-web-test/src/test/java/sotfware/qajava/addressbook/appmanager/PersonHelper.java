@@ -66,4 +66,8 @@ public class PersonHelper extends HelperBase {
   public boolean isThereAPerson() {
     return isElementPresent(By.name("selected[]"));
   }
+
+  public int getPersonCount() {
+    return wd.findElements(By.name("selected[]")).size();
+  }
 }

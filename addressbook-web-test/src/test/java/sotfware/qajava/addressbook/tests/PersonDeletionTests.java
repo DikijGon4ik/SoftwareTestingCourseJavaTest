@@ -1,5 +1,6 @@
 package sotfware.qajava.addressbook.tests;
 
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
@@ -21,9 +22,12 @@ public class PersonDeletionTests extends TestBase {
     @Test
     public void PersonDeletionTests(){
       if(! app.getPersonHelper().isThereAPerson())  {   NewPersonCreationTests.testNewPersonCreation(); }
+      int before = app.getPersonHelper().getPersonCount();
       app.getPersonHelper().selectPerson();
       app.getPersonHelper().deletePerson();
       app.getPersonHelper().confirmDeletion();
       app.getNavigationHelper().returnToHomePage();
+      int after = app.getPersonHelper().getPersonCount();
+      Assert.assertEquals(after, before-1);
     }
 }
