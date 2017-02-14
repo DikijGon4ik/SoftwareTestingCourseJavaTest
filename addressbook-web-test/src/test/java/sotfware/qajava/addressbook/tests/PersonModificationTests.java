@@ -2,18 +2,21 @@ package sotfware.qajava.addressbook.tests;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import sotfware.qajava.addressbook.model.PersonalData;
+
+import java.util.List;
 
 public class PersonModificationTests extends TestBase {
 
   @Test
   public void testPersonModification(){
     if(! app.getPersonHelper().isThereAPerson())  {   NewPersonCreationTests.testNewPersonCreation(); }
-    int before = app.getPersonHelper().getPersonCount();
-    app.getPersonHelper().selectPerson(before-1);
+    List<PersonalData> before = app.getPersonHelper().getPersonList();
+    app.getPersonHelper().selectPerson(before.size()-1);
     app.getPersonHelper().initPersonModification(false);
     app.getPersonHelper().submitPersonModification();
     app.getNavigationHelper().returnToHomePage();
-    int after = app.getPersonHelper().getPersonCount();
-    Assert.assertEquals(after, before);
+    List<PersonalData> after = app.getPersonHelper().getPersonList();
+    Assert.assertEquals(after.size(), before.size());
   }
 }

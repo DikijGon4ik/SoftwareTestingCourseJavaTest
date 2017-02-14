@@ -3,11 +3,15 @@ package sotfware.qajava.addressbook.appmanager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import sotfware.qajava.addressbook.model.ContactInfo;
 import sotfware.qajava.addressbook.model.PersonalData;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class PersonHelper extends HelperBase {
 
@@ -70,4 +74,21 @@ public class PersonHelper extends HelperBase {
   public int getPersonCount() {
     return wd.findElements(By.name("selected[]")).size();
   }
-}
+
+
+  public List<PersonalData> getPersonList() {
+    List<PersonalData> datas = new ArrayList<PersonalData>();
+    List<WebElement> elements = wd.findElements(By.name("entry"));
+    for (WebElement element : elements){
+      String name = element.getText();
+      String firstName = element.getText();
+      String lastName = element.getText();
+      String nickName = element.getText();
+      String group = element.getText();
+      PersonalData data = new PersonalData(firstName, lastName, nickName, group);
+      datas.add(data);
+    }
+    return datas;
+    }
+
+  }
