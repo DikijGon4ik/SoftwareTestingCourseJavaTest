@@ -43,8 +43,8 @@ public class PersonHelper extends HelperBase {
     click(By.xpath("//div[@id='content']/form/input[21]"));
   }
 
-  public void selectPerson() {
-    click(By.name("selected[]"));
+  public void selectPerson(int index) {
+    wd.findElements(By.name("selected[]")).get(index).click();
   }
 
   public void deletePerson() {

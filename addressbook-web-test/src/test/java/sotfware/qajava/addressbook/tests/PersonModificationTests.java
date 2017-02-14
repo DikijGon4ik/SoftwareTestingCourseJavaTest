@@ -9,7 +9,7 @@ public class PersonModificationTests extends TestBase {
   public void testPersonModification(){
     if(! app.getPersonHelper().isThereAPerson())  {   NewPersonCreationTests.testNewPersonCreation(); }
     int before = app.getPersonHelper().getPersonCount();
-    app.getPersonHelper().selectPerson();
+    app.getPersonHelper().selectPerson(before-1);
     app.getPersonHelper().initPersonModification(false);
     app.getPersonHelper().submitPersonModification();
     app.getNavigationHelper().returnToHomePage();

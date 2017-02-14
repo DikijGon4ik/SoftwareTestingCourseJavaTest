@@ -23,7 +23,7 @@ public class PersonDeletionTests extends TestBase {
     public void PersonDeletionTests(){
       if(! app.getPersonHelper().isThereAPerson())  {   NewPersonCreationTests.testNewPersonCreation(); }
       int before = app.getPersonHelper().getPersonCount();
-      app.getPersonHelper().selectPerson();
+      app.getPersonHelper().selectPerson(before-1);
       app.getPersonHelper().deletePerson();
       app.getPersonHelper().confirmDeletion();
       app.getNavigationHelper().returnToHomePage();
